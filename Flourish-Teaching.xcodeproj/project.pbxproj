@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A9938571A9165B200599E95 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9938561A9165B200599E95 /* CoreLocation.framework */; };
+		1AB01D171A880E69008915F2 /* EntryFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB01D161A880E69008915F2 /* EntryFormController.swift */; };
+		1ADD76D21A944CFC00D33C79 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADD76D11A944CFC00D33C79 /* UIColor.swift */; };
 		1AF0F7A51A7E941E00CADA71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF0F7A41A7E941E00CADA71 /* AppDelegate.swift */; };
 		1AF0F7A71A7E941E00CADA71 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF0F7A61A7E941E00CADA71 /* FirstViewController.swift */; };
 		1AF0F7A91A7E941E00CADA71 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF0F7A81A7E941E00CADA71 /* SecondViewController.swift */; };
@@ -27,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A9938561A9165B200599E95 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1AB01D161A880E69008915F2 /* EntryFormController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryFormController.swift; sourceTree = "<group>"; };
+		1ADD76D11A944CFC00D33C79 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		1AF0F79F1A7E941E00CADA71 /* Flourish-Teaching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flourish-Teaching.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF0F7A31A7E941E00CADA71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AF0F7A41A7E941E00CADA71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A9938571A9165B200599E95 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +68,7 @@
 		1AF0F7961A7E941E00CADA71 = {
 			isa = PBXGroup;
 			children = (
+				1A9938561A9165B200599E95 /* CoreLocation.framework */,
 				1AF0F7A11A7E941E00CADA71 /* Flourish-Teaching */,
 				1AF0F7B91A7E941E00CADA71 /* Flourish-TeachingTests */,
 				1AF0F7A01A7E941E00CADA71 /* Products */,
@@ -79,10 +87,12 @@
 		1AF0F7A11A7E941E00CADA71 /* Flourish-Teaching */ = {
 			isa = PBXGroup;
 			children = (
+				1ADD76D11A944CFC00D33C79 /* UIColor.swift */,
 				1AF0F7A41A7E941E00CADA71 /* AppDelegate.swift */,
 				1AF0F7A61A7E941E00CADA71 /* FirstViewController.swift */,
 				1AF0F7A81A7E941E00CADA71 /* SecondViewController.swift */,
 				1AF0F7AA1A7E941E00CADA71 /* Main.storyboard */,
+				1AB01D161A880E69008915F2 /* EntryFormController.swift */,
 				1AF0F7AD1A7E941E00CADA71 /* Images.xcassets */,
 				1AF0F7AF1A7E941E00CADA71 /* LaunchScreen.xib */,
 				1AF0F7A21A7E941E00CADA71 /* Supporting Files */,
@@ -164,6 +174,7 @@
 				TargetAttributes = {
 					1AF0F79E1A7E941E00CADA71 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 3GDL5XEWR5;
 					};
 					1AF0F7B51A7E941E00CADA71 = {
 						CreatedOnToolsVersion = 6.2;
@@ -217,7 +228,9 @@
 			files = (
 				1AF0F7A91A7E941E00CADA71 /* SecondViewController.swift in Sources */,
 				1AF0F7A51A7E941E00CADA71 /* AppDelegate.swift in Sources */,
+				1AB01D171A880E69008915F2 /* EntryFormController.swift in Sources */,
 				1AF0F7A71A7E941E00CADA71 /* FirstViewController.swift in Sources */,
+				1ADD76D21A944CFC00D33C79 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +306,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -329,7 +342,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -340,9 +353,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Flourish-Teaching/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -350,9 +368,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Flourish-Teaching/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -409,6 +432,7 @@
 				1AF0F7C21A7E941E00CADA71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AF0F7C31A7E941E00CADA71 /* Build configuration list for PBXNativeTarget "Flourish-TeachingTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +441,7 @@
 				1AF0F7C51A7E941E00CADA71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
