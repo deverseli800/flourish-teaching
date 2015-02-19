@@ -22,7 +22,6 @@ class EntryFormController: UIViewController, UITextFieldDelegate, UITextViewDele
     ]
 
     let picker = UIImageView(image: UIImage(named: "picker"))
-    
     var locationManager: CLLocationManager!
     var currentLocation: CLLocation?
     var keyboardHeight: CGFloat = 0
@@ -159,8 +158,6 @@ class EntryFormController: UIViewController, UITextFieldDelegate, UITextViewDele
         currentLocation = (locations.last as? CLLocation)
         
     }
-
-
     
 }
 

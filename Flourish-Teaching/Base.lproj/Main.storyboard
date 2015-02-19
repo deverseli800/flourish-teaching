@@ -62,7 +62,7 @@
                                     <action selector="togglePicker:" destination="9pv-A4-QxB" eventType="touchUpInside" id="Ush-vR-Euv"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xKC-bf-nR2">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xKC-bf-nR2">
                                 <rect key="frame" x="16" y="189" width="568" height="272"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -71,11 +71,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7K-LB-4Ci">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7K-LB-4Ci">
                                 <rect key="frame" x="16" y="480" width="568" height="56"/>
                                 <color key="backgroundColor" red="0.09921063443" green="0.70707370920000001" blue="0.58104786890000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="mXJ-q2-z9N"/>
+                                    <constraint firstAttribute="height" constant="56" id="4T8-td-5zr"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Button">
@@ -90,7 +90,6 @@
                             <constraint firstItem="6Iw-HA-hyb" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" id="1UV-g8-0sM"/>
                             <constraint firstItem="32K-fT-b4b" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="40" id="3Xf-Ne-6N7"/>
                             <constraint firstItem="VXH-gS-Grq" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="25" id="3fP-kT-wpQ"/>
-                            <constraint firstItem="32K-fT-b4b" firstAttribute="top" secondItem="6Iw-HA-hyb" secondAttribute="bottom" constant="10" id="460-1S-Ifx"/>
                             <constraint firstItem="De9-IZ-T1G" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="10" id="5AA-p8-aXN"/>
                             <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="N7K-LB-4Ci" secondAttribute="bottom" constant="15" id="5PA-xG-gQm"/>
                             <constraint firstAttribute="trailingMargin" secondItem="6Iw-HA-hyb" secondAttribute="trailing" id="7aM-hn-foa"/>
@@ -111,7 +110,7 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="460-1S-Ifx"/>
+                                <exclude reference="BZ8-Po-buF"/>
                             </mask>
                         </variation>
                     </view>
