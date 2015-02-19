@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flourish-Teaching/EntryFormController.swift"
+            timestampString = "446074900.89546"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "EntryFormController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flourish_Teaching.EntryFormController.init (Flourish_Teaching.EntryFormController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; Flourish_Teaching.EntryFormController"
+                  moduleName = "Flourish-Teaching"
+                  urlString = "file:///Users/cesardevers/Desktop/Flourish-Teaching/Flourish-Teaching/EntryFormController.swift"
+                  timestampString = "446074924.462808"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "1986">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flourish_Teaching.EntryFormController.init (Flourish_Teaching.EntryFormController.Type)() -&gt; Flourish_Teaching.EntryFormController"
+                  moduleName = "Flourish-Teaching"
+                  urlString = "file:///Users/cesardevers/Desktop/Flourish-Teaching/Flourish-Teaching/EntryFormController.swift"
+                  timestampString = "446074924.463008"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "1842">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flourish_Teaching.EntryFormController.init (Flourish_Teaching.EntryFormController.Type)(coder : ObjectiveC.NSCoder) -&gt; Flourish_Teaching.EntryFormController"
+                  moduleName = "Flourish-Teaching"
+                  urlString = "file:///Users/cesardevers/Desktop/Flourish-Teaching/Flourish-Teaching/EntryFormController.swift"
+                  timestampString = "446074924.463194"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "1871">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
